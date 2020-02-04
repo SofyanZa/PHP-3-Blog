@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subheader hr {
+    border: .2em solid white;
+    width: 100px;
+}
+
+header {
+    background-image: url('../img/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3em;
+}
+
+.subheader {
+    color: white;
+}
+
+.subheader h1 {
+    font-weight: 800;
+}
+
+a {
+    color: #0f0f0f;
+}
+
+.navbar-light .navbar-brand {
+    font-weight: 800;
+    color: #666;
+}
+
+.navbar-toggler {
+    font-weight: 800;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: .7em .5em;
+}
+
+.oblog-sidebar .card .card-header {
+    color: white;
+    background-color: #121231;
+    font-weight: 800;
+}
+
+ul.list-inline {
+    margin: 1em;
+}
+
+
+
+@media (min-width: 768px) {
+    nav.navbar {
+        background-color: transparent !important;
+    }
+
+    .navbar-light .navbar-brand {
+        color: white;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+}
